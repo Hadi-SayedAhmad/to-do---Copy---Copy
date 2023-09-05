@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KN69CRXZVR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-KN69CRXZVR');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
@@ -115,7 +124,7 @@
                     taskDiv.setAttribute("task-id", task.id);
                     taskDiv.setAttribute("data-aos", "zoom-in");
                     taskDiv.setAttribute("data-aos-duration", "1000");
-                    
+
 
                     taskDiv.innerHTML = '<strong>Name:</strong> ' + task.user + '<br>' +
                         '<strong>ID:</strong> ' + task.id + '<br>' +
